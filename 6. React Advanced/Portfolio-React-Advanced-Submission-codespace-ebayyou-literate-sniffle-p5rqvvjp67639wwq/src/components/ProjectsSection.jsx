@@ -1,7 +1,8 @@
 import React from 'react';
 import FullScreenSection from './FullScreenSection';
-import { Box, Heading } from '@chakra-ui/react';
+import { Box, Heading, Image } from '@chakra-ui/react';
 import Card from './Card';
+import { Fragment } from 'react';
 
 const projects = [
   {
@@ -13,7 +14,7 @@ const projects = [
     title: 'Neona E-Commerce',
     description:
       'Neona E-Commerce app, the Fashion trendy in the world with a modern stylish UI&UX',
-    getImageSrc: () => require('../assets/image/Neona_E-commerce.jpg'),
+    getImageSrc: () => require('../assets/image/Neona_E-commerce.jpg',)
   },
   {
     title: 'Brainwave - AI iOS UI Kit',
@@ -31,13 +32,13 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="project-section">
       <FullScreenSection
         backgroundColor="purple.400"
         isDarkBackground
         p={8}
-        alignItems="flex-start"
+        alignItems="center"
         spacing={8}
+        id="project-section"
       >
         <Heading
           as="h1"
@@ -50,17 +51,18 @@ const ProjectsSection = () => {
           gridTemplateColumns="repeat(2,minmax(0,1fr))"
           gridGap={8}
         >
-          {projects.map((project) => (
-            <Card
-              key={project.title}
-              title={project.title}
-              description={project.description}
-              imageSrc={project.getImageSrc()}
-            />
+          {projects.map(({title, description, getImageSrc}) => (
+            <Fragment key={title}>
+              <Card 
+                title={title}
+                description={description}
+                getImageSrc={getImageSrc()}
+              />
+              <Image src={getImageSrc()} alt={title} borderRadius="lg" />
+            </Fragment>
           ))}
         </Box>
       </FullScreenSection>
-    </section>
   );
 };
 

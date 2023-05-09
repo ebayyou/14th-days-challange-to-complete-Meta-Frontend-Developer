@@ -17,6 +17,7 @@ const LandingSection = () => (
       display="grid"
       gridTemplateColumns="repeat(2,minmax(0,1fr))"
       gridGap={8}
+      placeItems="center"
     >
       <Box
         color="blackAlpha.800"

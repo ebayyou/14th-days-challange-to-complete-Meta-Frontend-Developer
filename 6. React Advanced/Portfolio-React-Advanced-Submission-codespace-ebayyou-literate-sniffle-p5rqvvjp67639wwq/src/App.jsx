@@ -1,9 +1,8 @@
 import { ChakraProvider } from '@chakra-ui/react';
-import './style/index.css';
 import { AlertProvider } from './context/AlertContext';
-import Headers from './components/Header';
+import Headers from './components/Headers';
 import LandingSection from './components/LandingSection';
-import ProjectsSection from './components/ProjectSection';
+import ProjectsSection from './components/ProjectsSection';
 import ContactMeSection from './components/ContactMeSection';
 import Footer from './components/Footer';
 import Alert from './components/Alert';
