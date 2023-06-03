@@ -2,7 +2,7 @@
 
 Launch your career as a front-end developer. Build job-ready skills for an in-demand career and earn a credential from Meta. No degree or prior experience required to get started.
 
-<img src="./meta-logo.certy" width=150>
+<img src="./certy.png" width=150>
 
 - This repo contains of my assignments and certificate from the 9 courses in the Coursera Professional Certificate: [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer)
 
