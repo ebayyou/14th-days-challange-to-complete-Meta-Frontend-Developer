@@ -1,9 +1,28 @@
-# Meta Front-End Developer Professional Certificate
+# Version Control
 
-<img src="./meta-logo.png" width=150>
+Learn how modern software developers collaborate across the world without messing up each other's code. You will look at the different version control systems and how to create an effective software development workflow. You will be introduced to some of the most commonly used Linux commands that you can use to work with files on your hard drive and create powerful workflows that will automate your work, saving you time and effort.
 
-- This repo contains all of my assignments, demos, and cheat sheets from the 9 courses in the Coursera Professional Certificate: [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer)
+Finally, you will see how Git can be used in software development projects to manage team files. And you will create a repository that can manage code revisions.
 
 ## Table of Content
 
-will be reserved.
+<details>
+<summary><b>Course 3: </b><a href="https://www.coursera.org/learn/introduction-to-version-control"><b>Version Control</b></a></summary>
+
+### Modul 1: Software collaboration
+
+In this module, you will learn about how modern software developers collaborate across the world without messing up each other's code. This involves using version control or subversion to bring order to the chaos of massive software projects that have the potential for mistakes and bugs. You will look at the different version control systems and how to create an effective software development workflow.
+
+### Modul 2: Command Line
+
+In this module you will learn how to use the command line to execute commands in Linux. You will be introduced to some of most commonly used commands that traverse, create, rename, and delete files on your hard drive. You will learn how easy it is to use piping and redirection to create powerful workflows that will automate your work, saving you time and effort.
+
+### Modul 3: Working with Git
+
+This module will help you to develop a strong conceptual understanding of the Git technology and how it is used in software development projects to manage team files. You will install Git, create a local repository, create a commit, create a remote repository and push commits to a remote repository.
+
+### Modul 4: Graded Assessment
+
+In this module, you will be assessed on the key skills covered in the Course.
+
+</details>
